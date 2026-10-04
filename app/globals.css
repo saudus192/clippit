@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+body {
+    font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-poppins);
+}
+
+/* Custom scrollbar styles */
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* For Edge and IE */
+* {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
